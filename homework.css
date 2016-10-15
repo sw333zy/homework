@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+  padding-top: 150px;
+}
+
+fieldset {
+  display: inline-block;
+  width: 25%;
+}
+
+nav ul li{
+  display: inline-block;
+}
