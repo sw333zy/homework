@@ -35,16 +35,20 @@ nav ul li{
 /*Z INDEX PICTURES START */
 
 
-fieldset img .blue {
-
-    position: absolute;
-
+body .blue img{
+  border: 1px solid #0000ff;
+  box-sizing: border-box;
+  width: 33%;
+  display: inline-block;
+  position: right;
 }
 
 .front {
+    width:90%;
     z-index: 1;
 }
 .back {
+    width:90%;
     z-index: 2;
 }
 body > main:hover .back {
@@ -57,9 +61,14 @@ ul li {
 
 /*PINK*/
 
-.pink img {
+body .pink img {
 
-    position: absolute;;
+    border: 1px solid #0000ff;
+    position: absolute;
+    box-sizing: border-box;
+    width: 33%;
+    display: inline-block;
+    position: center;
 }
 
 
@@ -68,9 +77,7 @@ ul li {
 
 .yellow img {
 
-    position: absolute;;
+    position: absolute;
 }
 
 /*Z INDEX PICTURES END*/
-
-h
