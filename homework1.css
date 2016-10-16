@@ -1,0 +1,51 @@
+/*ALIGNMENT START*/
+body {
+  text-align: center;
+  padding-top: 150px;
+}
+
+fieldset {
+  display: inline-block;
+  width: 25%;
+}
+
+nav ul li{
+  display: inline-block;
+}
+/*ALIGNMENT END*/
+
+/*Z INDEX PICTURES START */
+
+
+.blue img {
+
+    position: absolute;
+}
+
+.front {
+    z-index: 1;
+}
+.back {
+    z-index: 2;
+}
+body > main:hover .back {
+    z-index: 0;
+}
+
+/*PINK*/
+
+.pink img {
+
+    position: absolute;
+}
+
+
+
+/*YELLOW*/
+
+.yellow img {
+
+    position: absolute;
+}
+
+/*Z INDEX PICTURES END*/
