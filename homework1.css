@@ -1,16 +1,19 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+
+
 /*ALIGNMENT START*/
 body {
   text-align: center;
   padding-top: 150px;
 }
 
-fieldset {
-  display: inline-block;
-  width: 25%;
+fieldset .blue .yellow .pink {
+  display:inline-block;
 }
 
 nav ul li{
   display: inline-block;
+  float: bottom;
 }
 /*ALIGNMENT END*/
 
@@ -19,7 +22,7 @@ nav ul li{
 
 .blue img {
 
-    position: absolute;
+    position: relative;
 }
 
 .front {
@@ -36,7 +39,7 @@ body > main:hover .back {
 
 .pink img {
 
-    position: absolute;
+    position: relative;
 }
 
 
@@ -45,7 +48,7 @@ body > main:hover .back {
 
 .yellow img {
 
-    position: absolute;
+    position: relative;
 }
 
 /*Z INDEX PICTURES END*/
