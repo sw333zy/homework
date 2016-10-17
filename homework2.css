@@ -1,17 +1,19 @@
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
-
+h1{
+  font-variant: small-caps;
+}
 
 main {
-    width: 1050px;
+    width: 350px;
     margin: 0 auto;
 }
 article {
 
     width: 300px;
-    float: left;
     margin: 25px;
+    margin-top: 100px;
     box-sizing: border-box;
-
+    clear: both;
     position: relative;
 }
 
@@ -92,3 +94,33 @@ article li:first-child {
 .submenu li {
     border: none;
 }
+
+/*SCREEN SIZES*/
+
+/* SMALL SCREENS */
+/*@media screen and (max-width: 300px) {
+    p {
+        float: left;
+    }
+
+    article {
+      width: 300px;
+      position: relative;
+    }
+}*/
+
+/* MEDIUM SCREEN */
+@media screen and (min-width: 700px) {
+    article {
+        float: left;
+    }
+    main {
+      width: 700px;
+    }
+}
+
+/* LARGE SCREEN */
+@media screen and (min-width: 900px) {
+    main {
+      width: 1050px;
+    }
