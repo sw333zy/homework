@@ -14,13 +14,6 @@ body {
   display:inline-block;
 }
 
-/*fieldset .blue .yellow .pink {
-  display:inline-block;
-  max-width: 100;
-  postion: abosolute;
-
-}*/
-
 nav{
 
 }
@@ -28,55 +21,42 @@ nav{
 nav ul li{
   display: inline-block;
   float: bottom;
-
+  border: 1px solid #0000ff;
 }
 /*ALIGNMENT END*/
 
 /*Z INDEX PICTURES START */
 
-
-body .blue img{
-  border: 1px solid #0000ff;
-  box-sizing: border-box;
-  width: 33%;
-  display: inline-block;
-  position: right;
-}
-
 .front {
-    width:90%;
+    /*width:90%;*/
     z-index: 1;
 }
+
 .back {
-    width:90%;
+    /*width:90%;*/
     z-index: 2;
 }
-body > main:hover .back {
+
+/*Shirt Styles*/
+.shirt {
+  height: 250px;
+  width: 33%;
+  float: left;
+  /*display:inline-block;*/
+  /*max-width: 100%;*/
+  /*postion: abosolute;*/
+
+}
+
+.shirt:hover .back {
     z-index: 0;
 }
 
-ul li {
-  border-color: #0000ff;
-}
-
-/*PINK*/
-
-body .pink img {
-
+.shirt img {
     border: 1px solid #0000ff;
-    position: absolute;
     box-sizing: border-box;
-    width: 33%;
-    display: inline-block;
-    position: center;
-}
 
-
-
-/*YELLOW*/
-
-.yellow img {
-
+    display: block;
     position: absolute;
 }
 
